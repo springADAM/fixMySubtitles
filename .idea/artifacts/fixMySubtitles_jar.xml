@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="fixMySubtitles:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/fixMySubtitles_jar</output-path>
+    <root id="archive" name="fixMySubtitles.jar">
+      <element id="module-output" name="fixMySubtitles" />
+    </root>
+  </artifact>
+</component>
