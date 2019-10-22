@@ -33,8 +33,8 @@ public class Controller {
                 for (int i = 0; i < mySubs.size(); i++) {
                     File tmp = mySubs.get(i);
                     tmp.renameTo(new File(tmp.getParent() + "/" + beg.getText() + new DecimalFormat("00").format((i + 1)) + end.getText() + "." + ext.getText()));
-                    JOptionPane.showMessageDialog(null, "Done", "Succeded", JOptionPane.INFORMATION_MESSAGE);
                 }
+                JOptionPane.showMessageDialog(null, "Done", "Succeded", JOptionPane.INFORMATION_MESSAGE);
             } catch (NullPointerException ignored) {
                 JOptionPane.showMessageDialog(null, "Error");
             }
